@@ -14,3 +14,11 @@
 - Infrastructure as Code
 - CI/CD(for back-end we set up Github Actions)
 - CI/CD(for front-end )
+
+## Setup
+- Create an AWS account at  https://aws.amazon.com/resources/create-account/
+- Setup MFA for the root account  https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_mfa_enable_virtual.html
+- Create an IAM user and assign permissions
+- Setup vault  https://github.com/99designs/aws-vault and add user using these commands
+  - aws-vault add my-user
+
