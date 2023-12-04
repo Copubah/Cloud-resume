@@ -22,3 +22,13 @@
 - Setup vault  https://github.com/99designs/aws-vault and add user using these commands
   - aws-vault add my-user
 
+
+## Deploy S3 
+- In this step we are going to deploy S3 using AWS SAM(Serverless Application Model);an open-source framework for building serverless applications
+- Set up the SAM CLI at https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/install-sam-cli.html
+- Add IAM permissions for SAM
+  - CloudFormation
+  - IAM
+  - Lambda
+  - API Gateway
+
