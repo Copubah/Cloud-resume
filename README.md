@@ -31,4 +31,6 @@
   - IAM
   - Lambda
   - API Gateway
+- Run SAM deploy
+
 
